@@ -16,12 +16,12 @@ def greeting(phrase, name)
 end
 
 def return_a_value(phrase)
-  phrase
+  return phrase
 end
 return_a_value("Nice")
 
 def last_evaluated_value(phrase)
-  phrase
+  return phrase
 end
 last_evaluated_value("expert")
 
